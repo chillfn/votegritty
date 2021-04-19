@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Vote Gritty</title>
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+</head>
+
+<body>
+        
+    <!-- Header -->
+    <nav class="header">
+        <ul>
+            <li><a class="home" href="#top">Vote for Gritty</a></li>
+            <li><a class="pagelink" href="#gritty-rotation-station">Gritty Rotation Station</a></li>
+            <li><a class="pagelink" href="#hide-and-go">Hide and Go Gritty</a></li>
+            <li><a class="pagelink" href="#gritter">Grittgram</a></li>
+        </ul>
+    </nav>
+
+    <!-- Rotation Station Section -->
+    <div class="banner" id="gritty-rotation-station">
+        <h1>Gritty Rotation Station</h1>
+        <img id="small-gritty" src="./assets/gritty.png" alt="Gritty face PNG" />
+        <p>To all those that believe everything's better with Gritty's face on it, this one's for you.</p>
+        <button type="button" id="rotate-left-button">Rotate Left</button>
+        <button type="button" id="rotate-right-button">Rotate Right</button>
+    </div>
+
+    <!-- Hide and Go Section -->
+    <div id="hide-and-go">
+        <h2>Hide and Go Gritty</h2>
+        <p>Gritty can hide in one second hover over gritty to see his first skill
+            like really try it if you dont trust me
+        <div class="border" id="gritty-border">
+            <img class="" id="toggle-gritty" src="./assets/gritty.png" alt="Gritty face PNG" />
+        </div>
+    </div>
+
+    <!-- Gritter section -->
+    <div class="gritter-card">
+        <span class="gritter bold" id="gritter">Instagram but better introducing Grittgram</span>
+        <p class="subheader">Social media dedicated to Gritty... and only Gritty.. because why not</p>
+        <form id="gritter-form">
+            <input type='text' name='greet' />
+            <input type="submit" value="Submit">
+        </form>
+        <div id="greets">
+            <ul>
+                <li>
+                    <div class='avatar'></div><span>Hey there, it's Gritty again. <br> </span>
+                </li>
+                <li>
+                    <div class='avatar'></div><span>Omg hi Gritty <br></span>
+                </li>
+                <li>
+                    <div class='avatar'></div><span>[user deleted this post] <br></span>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="./js/add-functionality-gritty.js"></script>
+</body>
+
+</html>
